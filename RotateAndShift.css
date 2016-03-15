@@ -1,0 +1,30 @@
+.pictureContainer{
+height: 190px;
+width:190px;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+}
+
+.pictureContainer img {
+transform: translate3d(0px, 0px, 0px);
+transition:transform .7s ease-in-out;
+border-radius: 50%;
+height: 200px;
+width:200px;
+bottom: 150px;
+position:relative;
+ } 
+ 
+.pictureContainer img:hover{
+transform: translate3d(50px,0px,0px) rotate(180deg);
+transition: transform .7s ease-out;
+  }
+  
+.img-circle {
+    border-radius: 50%;
+    display: block;
+margin-left: auto;
+margin-right: auto
+
+}
